@@ -1,4 +1,4 @@
-**Gear Design Assistant Tool**
+## Gear Design Assistant Tool
 
 A simple Python-based module that calculates key gear design parameters using standard mechanical formulas. Supports both interactive input and batch mode via CSV files. Built to demonstrate foundational understanding of software design for gear machine applications.
 
@@ -17,21 +17,6 @@ A simple Python-based module that calculates key gear design parameters using st
 - Dedendum = 1.25 × Module
 - Whole Depth = 2.25 × Module
 
-
-## How to Run
-
-### Single Mode:
-python gear_design_tool.py
-# Choose option 1
-Prepare a CSV like this:
-Teeth,Module
-20,2.5
-30,3.0
-15,1.5
-
-Then run:
-python gear_design_tool.py
-# Choose option 2
 **Sample output**
 
 | Teeth | Module | Pitch Diameter (mm) | Addendum (mm) | Dedendum (mm) | Whole Depth (mm) |
